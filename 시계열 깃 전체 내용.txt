@@ -1,0 +1,42 @@
+Toy 프로젝트 ==> 간단한 보고서 <-- PO/기획(12시간)
+- 회귀   --> 캘리포니아 집 값
+- 분류   --> 타이타닉(kaggle 에서 실행)
+- 시계열 --> Sample(Coin, 주식, 아파트 중 하나!)
+
+> Python ( <= 3.10.x, VSCode )
+- Pandas
+- Matplotlib
+- Scikit-Learn
+- (*)TF/Torch
+- (**) prophet (시계열)
+
+프로젝트 #1.환경구성
+
+
+
+
+## 파이썬 설정 PowerShell
+pip freeze > requirements.txt
+cat .\requirements.txt
+pip uninstall -r .\requirements.txt
+python.exe -m pip install --upgrade pip
+
+pip install wheel
+pip list
+
+# practice-analysis
+> 회귀, 분류, 시계열을 파이썬과 R을 사용해서 연습해 본 저장소 입니다.
+
+regression
+## 설정
+
+```shell
+python -m venv venv
+
+$ python -m venv venv  ::격리시키기
+$ .\venv\Scripts\activate  ::가상환경을actvate 
+$ (venv) pip install numpy pandas seaborn
+$ pip freeze > requirements.txt
+$ (venv) pip install -r requirements.txt
+$ pip install jupyter
+```
